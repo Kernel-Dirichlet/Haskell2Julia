@@ -1,0 +1,31 @@
+add :: Float -> Float -> Float
+add x y = x + y
+
+sphereVol :: (Float,Float) -> Float
+sphereVol (r,h) = (4/3)*(3.1415)*r^3*h
+cur_sphere = curry sphereVol
+
+triangleArea :: Float -> Float -> Float
+triangleArea b h = (1/2)*b*h
+
+squareArea :: Float -> Float
+squareArea b = b^2
+
+data Suit = Club | Diamond | Heart | Spade
+
+sumIntSquares :: Integer -> Integer -> Integer
+sumIntSquares x y = x^2+y^2
+
+
+arr1 = [squareArea x | x <- [1..10]]
+arr2 = map squareArea  [1..10]
+
+arr3 = filter (>=4) [1..20]
+
+main :: IO ()
+main =  do
+
+putStr "Sum of x + y = "
+print(add 10.0 25.0)
+putStr "Volume of sphere ="
+print(cur_sphere 1.0 4.5)
