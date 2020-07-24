@@ -1,6 +1,6 @@
 # Haskell2Julia
 
-H2J is a mini-transpiler capable of translating a subset of the Haskell language into Julia. 
+H2J is a mini-transpiler (written in Julia) capable of translating a subset of the Haskell language into Julia. 
 
 The source code for the transpiler exists in the Jupyter Notebook - H2J_main.ipynb , along with extensive documentation. 
 
