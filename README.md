@@ -7,7 +7,7 @@ The source code for the transpiler exists in the Jupyter Notebook - H2J_main.ipy
 The transpiler is a work in progress, but it has enough functionality to be semi-useful. 
 
 
-Requirements: 
+H2J requirements: 
 ==================
 Julia = 1.3.1
 ==================
