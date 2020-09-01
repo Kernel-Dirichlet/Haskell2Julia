@@ -4,7 +4,10 @@ H2J is a mini-transpiler (written in Julia) capable of translating a subset of t
 
 The source code for the transpiler exists in the Jupyter Notebook - H2J_main.ipynb , along with extensive documentation. 
 
-The transpiler is a work in progress, but it has enough functionality to be semi-useful. Please check the "Projects" tab for updates to H2J. 
+The transpiler in its current form was an exericse to see how quickly a crude working transpiler could be written. 
+H2J has enough functionality to be semi-useful, but the code will be rewritten so that incorporates more sound compiler design principles.
+Please check the "Projects" tab for updates to H2J. 
+
 
 
 H2J requirements: 
